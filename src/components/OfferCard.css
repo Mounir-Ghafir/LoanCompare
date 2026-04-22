@@ -1,0 +1,50 @@
+.offer-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #fff;
+  position: relative;
+}
+
+.offer-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.offer-card.selected {
+  border-color: #0066cc;
+  box-shadow: 0 0 0 2px #0066cc;
+}
+
+.offer-card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.offer-card .amount {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 4px;
+  color: #222;
+}
+
+.offer-card .rate {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.badge.recommended {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #22c55e;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
